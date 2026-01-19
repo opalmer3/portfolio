@@ -184,6 +184,58 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+.light {
+  /* MONOKAI PRO LIGHT INSPIRED PALETTE - SOFTENED */
+  --background: oklch(0.94 0.005 300);        /* Soft Off-White */
+  --foreground: oklch(0.23 0.015 300.95);     /* #2D2A2E (Monokai Dark as Text) */
+  
+  --card: oklch(0.91 0.005 300);
+  --card-foreground: oklch(0.23 0.015 300.95);
+  
+  --popover: oklch(0.94 0.005 300);
+  --popover-foreground: oklch(0.23 0.015 300.95);
+
+  /* Syntax / Accents - Adjusted for visibility on light Bg */
+  --primary: oklch(0.6 0.18 15);            /* Deeper Pink */
+  --primary-foreground: oklch(0.98 0.005 300);
+
+  --secondary: oklch(0.65 0.15 50);          /* Deeper Orange */
+  --secondary-foreground: oklch(0.98 0.005 300);
+  
+  --accent: oklch(0.6 0.12 250);            /* Soft Blue for variety */
+  --accent-foreground: oklch(0.98 0.005 300);
+
+  --muted: oklch(0.82 0.01 300);
+  --muted-foreground: oklch(0.4 0.01 300);
+
+  --destructive: oklch(0.6 0.18 15);
+  --destructive-foreground: oklch(0.98 0.005 300);
+
+  --border: oklch(0.85 0.01 300);
+  --input: oklch(0.85 0.01 300);
+  --ring: oklch(0.6 0.18 15);
+
+  /* Syntax Mapping */
+  --keyword: oklch(0.6 0.18 15);
+  --variable: oklch(0.65 0.15 50);
+  --function: oklch(0.7 0.15 85);
+  --string: oklch(0.7 0.15 85);
+  --type: oklch(0.55 0.1 230);
+  --interface: oklch(0.55 0.1 230);
+  --highlight: oklch(0.65 0.15 140);
+
+  /* Sidebar (Light) */
+  --sidebar: oklch(0.92 0.005 300);
+  --sidebar-foreground: oklch(0.3 0.01 300);
+  --sidebar-primary: oklch(0.6 0.18 15);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.88 0.01 300);
+  --sidebar-accent-foreground: oklch(0.2 0 0);
+  --sidebar-border: oklch(0.82 0 0);
+  --sidebar-ring: oklch(0.6 0.18 15);
+  --activity-bar: oklch(0.9 0.005 300);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
