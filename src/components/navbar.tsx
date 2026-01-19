@@ -15,6 +15,13 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-md lg:gap-lg">
+          <Link 
+            href="/contact"
+            className="hidden sm:flex text-sm text-muted-foreground hover:text-primary transition-colors font-mono"
+          >
+            Contact
+          </Link>
+
           <a 
             href="https://www.linkedin.com/in/palmeroliver" 
             target="_blank" 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import Navbar from "@/src/components/navbar";
+import Footer from "@/src/components/footer";
 import "./theme.css";
 import "./globals.css";
 
@@ -67,6 +68,7 @@ export default function RootLayout({
         <main className="pt-16 min-h-[calc(100vh-64px)]">
           {children}
         </main>
+        <Footer />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
