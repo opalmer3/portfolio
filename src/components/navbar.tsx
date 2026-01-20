@@ -44,7 +44,7 @@ export default function Navbar() {
         <div className="flex items-center gap-md lg:gap-lg">
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-md hover:bg-accent/10 text-muted-foreground hover:text-primary transition-all flex items-center justify-center"
+            className="p-2 rounded-md hover:bg-accent/10 text-muted-foreground hover:text-primary transition-all flex items-center justify-center cursor-pointer"
             aria-label="Toggle theme"
           >
             {!mounted ? (

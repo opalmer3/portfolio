@@ -86,10 +86,6 @@ export default function Home() {
               </div>
           </div>
         </section>
-
-        <footer className="text-center py-2xl border-t border-border mt-2xl text-muted-foreground text-sm font-mono">
-          &copy; {new Date().getFullYear()} Oliver Palmer. Built with Next.js & Tailwind.
-        </footer>
       </div>
     </div>
   );
