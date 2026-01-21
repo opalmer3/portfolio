@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import Navbar from "@/src/components/navbar";
 import Footer from "@/src/components/footer";
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./theme.css";
 import "./globals.css";
 
@@ -99,6 +101,8 @@ export default function RootLayout({
             }),
           }}
         />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
