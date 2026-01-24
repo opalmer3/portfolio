@@ -82,7 +82,7 @@ export const projects: Project[] = [
     image: "/crypto_real.png",
     mobileImage: "/crypto_mobile.png",
     description: "Focused on high-traffic data platforms, delivering complex features like site-wide omnisearch and real-time trackers.",
-    longDescription: "My time at Crypto.com was fast-paced and strictly focused on their high-traffic core data platforms. I was mainly focused on new feature development delivering complex features such as a site-wide omnisearch querying multiple microservice backends and aggregating the results and a live ticker which showed what other users are searching built with WebSockets.",
+    longDescription: "My time at Crypto.com was fast-paced and strictly focused on their high-traffic core data platforms. I was mainly focused on new feature development delivering complex features such as a site-wide omnisearch querying multiple microservice backends and aggregating the results, and a live ticker which showed what other users are searching built with WebSockets.",
     challenges: [
       "Aggregating data from multiple microservice backends into a single, performant omnisearch feature.",
       "Implementing real-time WebSocket communication for live search tickers at scale.",
