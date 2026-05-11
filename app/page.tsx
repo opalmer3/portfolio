@@ -10,13 +10,13 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center text-center space-y-lg min-h-[calc(100vh-64px)] animate-fade-in max-w-5xl mx-auto px-md w-full">
         <div className="space-y-md">
           <p className="text-primary font-mono text-sm tracking-widest uppercase animate-slide-in-up">
-            Available for fully remote, contract or full-time opportunities
+            Available for remote, hybrid, contract or full-time roles
           </p>
           <h1 className="title-lg md:text-6xl text-foreground font-bold animate-slide-in-up [animation-delay:200ms]">
             Oliver Palmer
           </h1>
           <p className="title-md md:text-3xl text-secondary animate-slide-in-up [animation-delay:400ms]">
-            React / Next.js Specialist
+            Full Stack Engineer | TypeScript, React & Next.js, AWS
           </p>
         </div>
         
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="space-y-md">
               <h2 className="title-md text-function">_skills</h2>
               <div className="flex flex-wrap gap-sm">
-                  {["React", "Next.js", "TypeScript", "React Native", "Tailwind", "Vercel", "AWS", "Contentful", "Git", "WCAG", "Performance"].map((skill) => (
+                  {["React", "Next.js", "TypeScript", "React Native", "Tailwind", "Vercel", "AWS", "Contentful", "Payload CMS", "Git", "WCAG", "Performance"].map((skill) => (
                       <span 
                           key={skill}
                           className="px-sm py-xs bg-sidebar rounded text-sm font-mono text-secondary border border-border"
