@@ -117,6 +117,17 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             containerClassName="w-full rounded-2xl overflow-hidden border border-border/50 bg-sidebar/20 shadow-2xl"
           />
         )}
+
+        {/* Secondary Project Image Mockup/Real */}
+        {project.secondaryImage && (
+          <ResponsiveImage 
+            src={project.secondaryImage}
+            mobileSrc={project.secondaryMobileImage}
+            alt={`${project.title} secondary project view`}
+            priority={false}
+            containerClassName="w-full rounded-2xl overflow-hidden border border-border/50 bg-sidebar/20 shadow-2xl"
+          />
+        )}
       </header>
 
       {/* Main Content Split Layout */}

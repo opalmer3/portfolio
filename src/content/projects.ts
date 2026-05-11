@@ -12,11 +12,43 @@ export interface Project {
   impact: string[];
   image?: string;
   mobileImage?: string;
+  secondaryImage?: string;
+  secondaryMobileImage?: string;
   highlights: string[];
   website?: string;
 }
 
 export const projects: Project[] = [
+  {
+    slug: "cuckoo",
+    title: "Cuckoo",
+    role: "Full Stack Engineer",
+    period: "April 2026 - Present",
+    location: "UK",
+    tech: ["Next.js", "Payload CMS", "TypeScript", "AWS", "Datadog"],
+    image: "/cuckoo_real.png",
+    mobileImage: "/cuckoo_mobile.png",
+    secondaryImage: "/cuckoo_cms.png",
+    secondaryMobileImage: "/cuckoo_cms_mobile.png",
+    description: "Built a custom CMS using Payload CMS to power a Next.js frontend, enabling non-technical teams to dynamically build and manage pages.",
+    longDescription: "At Cuckoo, my primary focus was bridging the gap between engineering and content creation. I led the development of a custom CMS from the ground up, pairing Payload CMS with a high-performance Next.js frontend. The goal was to empower our marketing teams to dynamically build and manage pages without needing developer intervention. By creating a modular, component-driven page builder backed by a strict design system, we significantly sped up the publishing workflow.\n\nBeyond just the frontend UI, this role required me to be deeply involved across the entire stack. I managed our AWS cloud infrastructure and streamlined our CI/CD pipelines to ensure we could iterate quickly and reliably. Working closely with product and design under tight deadlines, it was incredibly rewarding to deliver a platform that not only scaled effortlessly but also completely transformed how the team managed content.",
+    challenges: [
+      "Building a modular CMS and component-driven page builder for marketing and content teams.",
+      "Implementing observability and analytics dashboards in Datadog to diagnose production issues.",
+      "Managing cloud infrastructure and CI/CD workflows for automated deployments."
+    ],
+    impact: [
+      "Improved page performance by over 40% on average through caching, SSG, and image optimisation.",
+      "Significantly reduced content publishing time using cache invalidation.",
+      "Helped scale the platform to support high traffic volumes while reducing engineering overhead through reusable architecture and automated infrastructure."
+    ],
+    highlights: [
+      "Built a modular CMS and component-driven page builder.",
+      "Implemented frontend performance improvements including caching, SSG, and image optimisation.",
+      "Set up observability and analytics dashboards in Datadog to track user behaviour."
+    ],
+    website: "https://cuckoo.co"
+  },
   {
     slug: "diageo",
     title: "Diageo",
